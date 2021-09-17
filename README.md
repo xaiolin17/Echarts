@@ -1,3 +1,3 @@
 # Echarts
-##BI
+#BI
 一些图表制作
