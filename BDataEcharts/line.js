@@ -126,7 +126,7 @@ var data = res.data;
                 XMMC: "",
                 current_number: 10,
                 current_page: 1,
-                url: "http://221.122.74.207:8972/server/p/inv-ndtzetj-ct"
+                url: "http://xxxx/server/p/inv-ndtzetj-ct"
             };
             sessionStorage.setItem("id83", JSON.stringify(param));
 
