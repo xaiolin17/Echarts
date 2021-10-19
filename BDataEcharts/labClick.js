@@ -6,7 +6,7 @@ function onCreatedEventCallBack(currentComponentInstance, ...arg) {
 
   var load = currentComponentInstance.$loading();
 
-  http.get("http://221.122.74.207:24002/prod-api/user/getInfo",
+  http.get("http://xxxx/prod-api/user/getInfo",
     { headers: { 'Authorization': 'Bearer ' + _e, "content-type": "application/json" } })
     .then(res => {
       var data = res.data;
@@ -66,7 +66,7 @@ function onCreatedEventCallBack(currentComponentInstance, ...arg) {
           current_page: 1,
           current_number: 10,
           titleName: '项目投资详情',
-          url: 'http://221.122.74.207:8972/server/p/inv-tzjhwcqk-app-ct',
+          url: 'http://xxxx/server/p/inv-tzjhwcqk-app-ct',
         };
         sessionStorage.setItem("id143", JSON.stringify(param));
         window.location.hash = "#/perview?id=143&e=" + _e + "&time=" + Math.floor(Math.random());
@@ -84,13 +84,13 @@ function onCreatedEventCallBack(currentComponentInstance, ...arg) {
           current_page: 1,
           current_number: 10,
           titleName: '项目投资详情',
-          url: 'http://221.122.74.207:8972/server/p/inv-tzjhwcqk-app-ct',
+          url: 'http://xxxx/server/p/inv-tzjhwcqk-app-ct',
         };
         sessionStorage.setItem("id143", JSON.stringify(param));
         window.location.hash = "#/perview?id=143&e=" + _e + "&time=" + Math.floor(Math.random());
       });
 
-      http.post("http://221.122.74.207:8972/server/p/inv-tzjhwcqk-app", {
+      http.post("http://xxxx/server/p/inv-tzjhwcqk-app", {
         company_name: orgName,
       }, { headers: { 'token': _e, "content-type": "application/json" } })
         .then(res => {
@@ -128,7 +128,7 @@ function onCreatedEventCallBack(currentComponentInstance, ...arg) {
               current_page: 1,
               current_number: 10,
               titleName: '项目投资详情',
-              url: 'http://221.122.74.207:8972/server/p/inv-tzjhwcqk-app-ct'
+              url: 'xxxx/server/p/inv-tzjhwcqk-app-ct'
             };
             sessionStorage.setItem("id143", JSON.stringify(param));
 
