@@ -1,6 +1,6 @@
 var app = {
         tab: function () {
-            var url = "http://221.122.74.207:8972/server/house/getFinancialTarget?year="
+            var url = "XXXX/server/house/getFinancialTarget?year="
                 + year + "&month=" + month;
             http.get(url, { headers: { 'token': _e, "content-type": "application/json" } }
             ).then(res => {
@@ -16,7 +16,7 @@ var app = {
         },
 
         chartzcfzldbfx: function (chartid) {
-            http.post("http://221.122.74.207:8972/server/p/cw-zcfzl", {
+            http.post("XXXX/server/p/cw-zcfzl", {
                 kjbm: '0001',
                 FLBM: '',
                 KJN: year,
@@ -159,7 +159,7 @@ var app = {
         },
 
         chartljzbfx: function (chartid) {
-            http.post("http://221.122.74.207:8972/server/p/cw-ljzbfx", {
+            http.post("XXXX/server/p/cw-ljzbfx", {
                 kjbm: '0001',
                 FLBM: '',
                 KJN: year,
@@ -301,7 +301,7 @@ var app = {
         },
 
         chartzjqk: function (chartid) {
-            http.post("http://221.122.74.207:8972/server/p/cw-sxfyzl", {
+            http.post("XXXX/server/p/cw-sxfyzl", {
                 kjbm: '0001',
                 FLBM: '',
                 KJN: year,
@@ -509,7 +509,7 @@ var app = {
         },
 
         chartsxfyzl: function (chartid) {
-            http.post("http://221.122.74.207:8972/server/p/cw-sxfyzl", {
+            http.post("XXXX/server/p/cw-sxfyzl", {
                 kjbm: '0001',
                 FLBM: '',
                 KJN: year,
@@ -733,7 +733,7 @@ var app = {
         },
 
         chartjzsyyhkhs: function (chartid) {
-            http.post("http://221.122.74.207:8972/server/p/cw-sxfyzl", {
+            http.post("XXXX/server/p/cw-sxfyzl", {
                 kjbm: '0001',
                 FLBM: '',
                 KJN: year,
@@ -906,7 +906,7 @@ var app = {
         },
 
         chartylnl: function (chartid) {
-            http.post("http://221.122.74.207:8972/server/p/cw-ylnl", {
+            http.post("XXXX/server/p/cw-ylnl", {
                 kjbm: '0002',
                 hybm: '0000',
                 month: month,
@@ -954,7 +954,7 @@ var app = {
         },
 
         chartyynl: function (chartid) {
-            http.post("http://221.122.74.207:8972/server/p/cw-yynl", {
+            http.post("XXXX/server/p/cw-yynl", {
                 kjbm: '0002',
                 hybm: '0000',
                 month: month,
@@ -1005,7 +1005,7 @@ var app = {
 
         },
         chartcznl: function (chartid) {
-            http.post("http://221.122.74.207:8972/server/p/cw-cznl", {
+            http.post("XXXX/server/p/cw-cznl", {
                 kjbm: '0002',
                 hybm: '0000',
                 month: month,
@@ -1053,7 +1053,7 @@ var app = {
 
         },
         chartfznl: function (chartid) {
-            http.post("http://221.122.74.207:8972/server/p/cw-fznl", {
+            http.post("XXXX/server/p/cw-fznl", {
                 kjbm: '0002',
                 hybm: '0000',
                 month: month,
