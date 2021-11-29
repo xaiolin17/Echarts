@@ -16,41 +16,41 @@ function onCreatedEventCallBack(currentComponentInstance, ...arg) {
       var clickjh = document.getElementById('cLabel_88b658cfbbd0a426');
 
       switch (orgName) {
-        case '中国农业生产资料集团公司':
-          nemeShort = '中农公司'
+        case '*********公司':
+          nemeShort = '**公司'
           break
-        case '中华棉花集团有限公司':
-          nemeShort = '中棉公司'
+        case '*********公司':
+          nemeShort = '**公司'
           break
-        case '中国再生资源开发有限公司':
+        case '*********公司':
           nemeShort = '中再生公司'
           break
-        case '新合作商贸连锁集团有限公司':
-          nemeShort = '新合作公司'
+        case '*********公司':
+          nemeShort = '**公司'
           break
-        case '中国供销电子商务有限公司':
-          nemeShort = '电商公司'
+        case '*********公司':
+          nemeShort = '**公司'
           break
-        case '中国供销农产品批发市场控股有限公司':
-          nemeShort = '农批公司'
+        case '*********公司':
+          nemeShort = '**公司'
           break
-        case '中国供销冷链物流有限公司':
-          nemeShort = '冷链公司'
+        case '*********公司':
+          nemeShort = '**公司'
           break
-        case '中国供销惠农服务有限公司':
-          nemeShort = '惠农公司'
+        case '*********公司':
+          nemeShort = '**公司'
           break
-        case '中国供销粮油有限公司':
-          nemeShort = '粮油公司'
+        case '*********公司':
+          nemeShort = '**公司'
           break
-        case '供销集团财务有限公司':
-          nemeShort = '财务公司'
+        case '*********公司':
+          nemeShort = '**公司'
           break
-        case '新供销产业发展基金管理有限责任公司':
-          nemeShort = '基金公司'
+        case '*********公司':
+          nemeShort = '**公司'
           break
-        case '中再资源环境股份有限公司':
-          nemeShort = '中再资源'
+        case '*********公司':
+          nemeShort = '**资源'
           break
       };
 
