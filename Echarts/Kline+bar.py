@@ -8,7 +8,7 @@ from pyecharts.charts import Line, Kline, Pie,Grid, Timeline,TreeMap, WordCloud,
 from pyecharts.commons.utils import JsCode
 
 pymysql.install_as_MySQLdb()
-engine_ts = create_engine('mysql://root:15330393717lin!@127.0.0.1:3306/stock_basic?charset=utf8&use_unicode=1')
+engine_ts = create_engine('mysql://root:153****************@127.0.0.1:3306/stock_basic?charset=utf8&use_unicode=1')
 
 def read_data():
     sql = """SELECT * FROM stock_basic.stock_index"""
