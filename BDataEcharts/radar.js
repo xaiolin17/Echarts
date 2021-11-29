@@ -127,7 +127,7 @@ var data = res.data;
                     gender: params.name,
                     size: 10,
                     current: 1,
-                    titleName: params.name + '党员详情'
+                    titleName: params.name + '**详情'
                 };
 
                 sessionStorage.setItem("id126", JSON.stringify(param));
